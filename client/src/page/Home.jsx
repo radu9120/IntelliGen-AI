@@ -25,7 +25,7 @@ const Home = () => {
 
     try {
       const response = await fetch(
-        'https://intelli-gen-ai.vercel.app/api/v1/post',
+        'https://intelli-gen-ai-radu9120.vercel.app/api/v1/post',
         {
           method: 'GET',
           headers: {
