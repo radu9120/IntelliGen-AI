@@ -33,7 +33,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          'https://intelli-gen-ai-radu9120.vercel.app/api/v1/dalle',
+          'https://intelli-gen-ai-vbb7-7om31wxud-radu9120.vercel.app/api/v1/dalle',
           {
             method: 'POST',
             headers: {
